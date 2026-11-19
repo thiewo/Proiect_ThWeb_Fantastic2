@@ -1,14 +1,11 @@
 # Cerințe și actori
 
-
 Sursa: cele trei fișe originale 2026-2027, Draft v2.0.
-
 
 ## Actori
 - Vizitator: verifică funcționarea aplicației și, ulterior, vede evenimente publicate.
 - Student autentificat: rezervă un loc, confirmă, vede biletul și anulează propriul loc.
 - Organizator autentificat: creează/publică evenimente și inspectează auditul.
-
 
 ## Fluxuri cu acceptare
 1. Publicare: organizatorul salvează un eveniment valid; studentul îl vede în listă. Studentul primește 403 dacă încearcă operația privilegiată.
