@@ -1,2 +1,7 @@
-const mesaj = 'Proiectul porneste!';
-console.log(mesaj);
+
+import { createApp } from './app.js';
+﻿
+const app = createApp();
+app.listen(3001, '127.0.0.1', () => {
+  console.log('API: http://127.0.0.1:3001/api/health');
+});
