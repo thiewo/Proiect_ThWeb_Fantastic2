@@ -1,9 +1,10 @@
 import React from 'react';
-
+import useState from 'react';
 
 export default function App() {
   const eveniment = { title: 'Atelier web', capacity: 5, allocated: 2 };
   const disponibile = eveniment.capacity - eveniment.allocated;
+  const [mesaj, setMesaj] = useState('API neverificat');
   return (
     <main>
       <h1>Rezervări la evenimente</h1>
