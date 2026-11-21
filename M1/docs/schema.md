@@ -21,4 +21,3 @@ Reservations 1 -> N Audit
 
 Exemplu: evenimentul 1 are capacity=5 și allocated=2. Mai poate accepta 3 locuri active.
 allocated numără HELD neexpirate și CONFIRMED cu bilet valabil; nu adunăm biletul încă o dată.
-Schema este proiectare; modelele Sequelize și constrângerile efective se implementează în M2.
