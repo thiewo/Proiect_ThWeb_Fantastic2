@@ -1,21 +1,22 @@
-# Proiect_ThWeb_Fantastic2
-# Etapa 03
+# M1 - schelet executabil
 
+
+Folosește Node.js LTS (material verificat pe Node 24) și npm. În acest folder:
 
 ```text
 npm ci
+npm run check:rule
+npm run build
 npm start
 ```
 
-
-Într-un al doilea terminal în același folder:
-
+În alt terminal, în același folder:
 
 ```text
 npm run dev:client
 ```
 
+Deschide URL-ul Vite, apoi Verifică API. API: http://127.0.0.1:3001/api/health.
+Ctrl+C în fiecare terminal oprește procesele. Pentru M1, buildul este verificat, iar pagina rulează prin Vite.
+Autentificarea, persistența, CON și AUD se implementează în M2, iar producția integrată se verifică în M3.
 
-Deschide adresa afișată de Vite (de regulă http://127.0.0.1:5173).
-Oprește ambele terminale cu Ctrl+C. npm run build verifică și construiește clientul în client/dist.
-În această etapă folosim Vite pentru vizualizare; servirea producției prin Express se adaugă ulterior.
