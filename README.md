@@ -67,4 +67,4 @@ npm run check:rule
 npm run build
 ```
 
-Aceste comenzi verifică regula inclusă și construiesc clientul. Nu reprezintă, singure, teste complete pentru toate funcționalitățile aplicației.
+Aceste comenzi verifică regula inclusă și construiesc clientul. Nu reprezintă teste complete pentru toate funcționalitățile aplicației.
